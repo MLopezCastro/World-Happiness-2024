@@ -68,7 +68,21 @@ World-Happiness-2024/
 ├── README.md                   # Documento de este proyecto
 
 
+🚀 Cómo Ejecutar el Proyecto
 
+Clonar el repositorio:
+
+git clone https://github.com/MLopezCastro/World-Happiness-2024.git
+
+Instalar las dependencias:
+
+pip install pandas matplotlib seaborn
+
+Abrir el notebook en Jupyter:
+
+jupyter notebook
+
+----------------
 
 
 
