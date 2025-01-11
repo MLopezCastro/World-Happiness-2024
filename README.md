@@ -1,2 +1,122 @@
 # World-Happiness-2024
 An analysis of the World Happiness Report (Data 2023, Report 2024) using Python, SQL, and Tableau.
+
+-------------------------------
+
+🌍 World Happiness Analysis 2008-2023
+
+📄 Descripción General
+
+Este proyecto analiza los niveles de felicidad en más de 150 países utilizando datos del World Happiness Report. El objetivo es identificar los factores que más influyen en la felicidad de las naciones y cómo han cambiado los niveles de felicidad a lo largo del tiempo, entre los años 2008 y 2023.
+
+Se exploraron variables como el PIB per cápita, el apoyo social, la esperanza de vida saludable, y la percepción de corrupción para comprender su impacto en la puntuación general de felicidad (Life Ladder).
+
+------------------------------
+
+📊 Análisis Realizado
+
+Ranking de países más felices (2023)
+
+Se calculó un ranking con los países más felices del mundo en 2023.
+
+Los 3 países más felices son: Finlandia, Dinamarca e Islandia.
+
+Variación de felicidad por país (2008-2023)
+
+--------------------------
+
+Se analizaron los cambios en la puntuación de felicidad de cada país en un período de 15 años.
+
+Se identificaron los 10 países que más mejoraron y los 10 países que más empeoraron en felicidad.
+
+-------------------------------
+
+Factores que explican la felicidad
+
+
+Se realizaron análisis de correlación entre la puntuación de felicidad y factores como:
+
+Log GDP per capita (PIB per cápita)
+
+Social support (Apoyo social)
+
+Healthy life expectancy (Esperanza de vida saludable)
+
+---------------
+
+📈 Gráficos de Análisis
+
+📈 Top 10 Países Más Felices (2023)	
+
+📉 Top 10 Países que Más Mejoraron (2008-2023)
+
+----------------------------
+
+🔧 Tecnologías Utilizadas
+
+Python – Limpieza y análisis de datos.
+
+Pandas – Manipulación de datos.
+
+Matplotlib y Seaborn – Visualización de gráficos.
+
+Tableau – Creación de dashboard interactivo.
+
+Git & GitHub – Control de versiones y publicación del proyecto.
+
+------------------------
+
+📂 Estructura del Proyecto
+
+World-Happiness-2024/
+│
+├── Files/
+│   └── DataForTable2.1.csv
+│   └── DataForFigure2.1.csv
+│
+├── World Happiness 2024.ipynb  # Notebook de Python
+├── README.md                   # Documento de este proyecto
+
+---------------------
+
+🚀 Cómo Ejecutar el Proyecto
+
+Clonar el repositorio:
+
+git clone https://github.com/MLopezCastro/World-Happiness-2024.git
+
+Instalar las dependencias:
+
+pip install pandas matplotlib seaborn
+
+Abrir el notebook en Jupyter:
+
+jupyter notebook
+
+----------------
+
+📊 Dashboard Interactivo en Tableau
+
+Próximamente se incluirá un dashboard interactivo en Tableau para visualizar los datos de manera más dinámica.
+
+-----------------
+
+🔍 Conclusiones Principales
+
+Los países con mayores puntuaciones de felicidad en 2023 tienen en común:
+
+Altos niveles de PIB per cápita.
+
+Fuerte apoyo social.
+
+Mayor esperanza de vida saludable.
+
+Los países que más han mejorado en felicidad (2008-2023) son en su mayoría economías emergentes.
+
+------------------
+
+💡 Este proyecto busca demostrar cómo el análisis de datos puede aportar información valiosa para la toma de decisiones en políticas públicas.
+
+
+
+
