@@ -34,3 +34,42 @@ Log GDP per capita (PIB per cápita)
 Social support (Apoyo social)
 
 Healthy life expectancy (Esperanza de vida saludable)
+
+
+📈 Gráficos de Análisis
+
+📈 Top 10 Países Más Felices (2023)	
+
+📉 Top 10 Países que Más Mejoraron (2008-2023)
+
+
+🔧 Tecnologías Utilizadas
+
+Python – Limpieza y análisis de datos.
+
+Pandas – Manipulación de datos.
+
+Matplotlib y Seaborn – Visualización de gráficos.
+
+Tableau – Creación de dashboard interactivo.
+
+Git & GitHub – Control de versiones y publicación del proyecto.
+
+
+📂 Estructura del Proyecto
+
+World-Happiness-2024/
+│
+├── Files/
+│   └── DataForTable2.1.csv
+│   └── DataForFigure2.1.csv
+│
+├── World Happiness 2024.ipynb  # Notebook de Python
+├── README.md                   # Documento de este proyecto
+
+
+
+
+
+
+
