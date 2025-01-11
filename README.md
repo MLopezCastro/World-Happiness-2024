@@ -1,6 +1,8 @@
 # World-Happiness-2024
 An analysis of the World Happiness Report (Data 2023, Report 2024) using Python, SQL, and Tableau.
 
+-------------------------------
+
 🌍 World Happiness Analysis 2008-2023
 
 📄 Descripción General
@@ -8,6 +10,8 @@ An analysis of the World Happiness Report (Data 2023, Report 2024) using Python,
 Este proyecto analiza los niveles de felicidad en más de 150 países utilizando datos del World Happiness Report. El objetivo es identificar los factores que más influyen en la felicidad de las naciones y cómo han cambiado los niveles de felicidad a lo largo del tiempo, entre los años 2008 y 2023.
 
 Se exploraron variables como el PIB per cápita, el apoyo social, la esperanza de vida saludable, y la percepción de corrupción para comprender su impacto en la puntuación general de felicidad (Life Ladder).
+
+------------------------------
 
 📊 Análisis Realizado
 
@@ -19,10 +23,13 @@ Los 3 países más felices son: Finlandia, Dinamarca e Islandia.
 
 Variación de felicidad por país (2008-2023)
 
+--------------------------
 
 Se analizaron los cambios en la puntuación de felicidad de cada país en un período de 15 años.
 
 Se identificaron los 10 países que más mejoraron y los 10 países que más empeoraron en felicidad.
+
+-------------------------------
 
 Factores que explican la felicidad
 
@@ -35,6 +42,7 @@ Social support (Apoyo social)
 
 Healthy life expectancy (Esperanza de vida saludable)
 
+---------------
 
 📈 Gráficos de Análisis
 
@@ -42,6 +50,7 @@ Healthy life expectancy (Esperanza de vida saludable)
 
 📉 Top 10 Países que Más Mejoraron (2008-2023)
 
+----------------------------
 
 🔧 Tecnologías Utilizadas
 
@@ -55,6 +64,7 @@ Tableau – Creación de dashboard interactivo.
 
 Git & GitHub – Control de versiones y publicación del proyecto.
 
+------------------------
 
 📂 Estructura del Proyecto
 
@@ -67,6 +77,7 @@ World-Happiness-2024/
 ├── World Happiness 2024.ipynb  # Notebook de Python
 ├── README.md                   # Documento de este proyecto
 
+---------------------
 
 🚀 Cómo Ejecutar el Proyecto
 
