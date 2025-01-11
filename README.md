@@ -95,6 +95,28 @@ jupyter notebook
 
 ----------------
 
+📊 Dashboard Interactivo en Tableau
+
+Próximamente se incluirá un dashboard interactivo en Tableau para visualizar los datos de manera más dinámica.
+
+-----------------
+
+🔍 Conclusiones Principales
+
+Los países con mayores puntuaciones de felicidad en 2023 tienen en común:
+
+Altos niveles de PIB per cápita.
+
+Fuerte apoyo social.
+
+Mayor esperanza de vida saludable.
+
+Los países que más han mejorado en felicidad (2008-2023) son en su mayoría economías emergentes.
+
+------------------
+
+💡 Este proyecto busca demostrar cómo el análisis de datos puede aportar información valiosa para la toma de decisiones en políticas públicas.
+
 
 
 
