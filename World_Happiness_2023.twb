@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Cleaned_World_Happiness_Data' inline='true' name='federated.1izey4x0obcmaj1361h9e1olfomi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cleaned_World_Happiness_Data' name='textscan.0c4tw4y1n5zl8f14dyoau1f723oa'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/mlope/OneDrive/Escritorio/MLopezCastro/World-Happiness-2024/Cleaned_World_Happiness_Data.csv' dataRefreshTime='' directory='C:/Users/mlope/OneDrive/Escritorio/MLopezCastro/World-Happiness-2024' filename='C:/Users/mlope/AppData/Local/Temp/TableauTemp/12zepcp16111071e5fwlr19l57qe/Cleaned_World_Happiness_Data.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0c4tw4y1n5zl8f14dyoau1f723oa' name='Cleaned_World_Happiness_Data.csv' table='[Cleaned_World_Happiness_D#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:K2098:no:A1:K2098:1' header='yes' locale='es_ES'>
+            <column datatype='string' name='Country name' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='integer' name='Life Ladder' ordinal='2' />
+            <column datatype='integer' name='Log GDP per capita' ordinal='3' />
+            <column datatype='integer' name='Social support' ordinal='4' />
+            <column datatype='integer' name='Healthy life expectancy at birth' ordinal='5' />
+            <column datatype='integer' name='Freedom to make life choices' ordinal='6' />
+            <column datatype='integer' name='Generosity' ordinal='7' />
+            <column datatype='integer' name='Perceptions of corruption' ordinal='8' />
+            <column datatype='integer' name='Positive affect' ordinal='9' />
+            <column datatype='integer' name='Negative affect' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K2098:no:A1:K2098:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>20970</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country name]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Country name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life Ladder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Life Ladder]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Life Ladder</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Log GDP per capita</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Log GDP per capita]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Log GDP per capita</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social support</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Social support]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Social support</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthy life expectancy at birth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Healthy life expectancy at birth]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Healthy life expectancy at birth</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Freedom to make life choices</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Freedom to make life choices]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Freedom to make life choices</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Generosity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Generosity]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Generosity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perceptions of corruption</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Perceptions of corruption]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Perceptions of corruption</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Positive affect</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Positive affect]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Positive affect</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Negative affect</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Negative affect]</local-name>
+            <parent-name>[Cleaned_World_Happiness_Data.csv]</parent-name>
+            <remote-alias>Negative affect</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Cleaned_World_Happiness_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/mlope/AppData/Local/Temp/TableauTemp/#TableauTemp_0q3ckmz00d2z7z12lapr10v98e3l.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/11/2025 11:22:49 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>152</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Life Ladder</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Life Ladder]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Life Ladder</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1296</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Log GDP per capita</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Log GDP per capita]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Log GDP per capita</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1286</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Social support</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Social support]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Social support</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>451</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Healthy life expectancy at birth</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Healthy life expectancy at birth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Healthy life expectancy at birth</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Freedom to make life choices</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Freedom to make life choices]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Freedom to make life choices</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>490</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Generosity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Generosity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Generosity</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>542</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Perceptions of corruption</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Perceptions of corruption]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Perceptions of corruption</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>536</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Positive affect</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Positive affect]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Positive affect</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>419</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Negative affect</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Negative affect]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Negative affect</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Cleaned_World_Happiness_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>357</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Cleaned_World_Happiness_Data.csv' id='Cleaned_World_Happiness_Data.csv_76E83844F409401BAE4D0CFA8CB7E94C'>
+            <properties context=''>
+              <relation connection='textscan.0c4tw4y1n5zl8f14dyoau1f723oa' name='Cleaned_World_Happiness_Data.csv' table='[Cleaned_World_Happiness_D#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:K2098:no:A1:K2098:1' header='yes' locale='es_ES'>
+                  <column datatype='string' name='Country name' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='integer' name='Life Ladder' ordinal='2' />
+                  <column datatype='integer' name='Log GDP per capita' ordinal='3' />
+                  <column datatype='integer' name='Social support' ordinal='4' />
+                  <column datatype='integer' name='Healthy life expectancy at birth' ordinal='5' />
+                  <column datatype='integer' name='Freedom to make life choices' ordinal='6' />
+                  <column datatype='integer' name='Generosity' ordinal='7' />
+                  <column datatype='integer' name='Perceptions of corruption' ordinal='8' />
+                  <column datatype='integer' name='Positive affect' ordinal='9' />
+                  <column datatype='integer' name='Negative affect' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D9E83BFB-5A87-48E6-9157-7C0B2F4AFC66}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{97668256-E78B-4DE2-88B8-219E905FE2B1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
