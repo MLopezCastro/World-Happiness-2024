@@ -1494,12 +1494,16 @@
             <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
             <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:Country name:nk]'>
+            <groupfilter function='level-members' level='[none:Country name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' included-values='in-range'>
             <min>2023</min>
             <max>2023</max>
           </filter>
           <slices>
             <column>[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]</column>
+            <column>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Country name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2165,8 +2169,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='17' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='21' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
                 <zone h='8061' id='8' name='Happiness World Map 2023' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-morefewerbutton='true' show-null-ctrls='false' type-v2='filter' values='all' w='9362' x='90170' y='935'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2385,7 +2389,7 @@
       </viewpoint>
       <simple-id uuid='{10737868-A823-4170-9F40-25CECC8A0B25}' />
     </window>
-    <window class='worksheet' name='Log GDP per capita &amp; Life Ladder'>
+    <window class='worksheet' maximized='true' name='Log GDP per capita &amp; Life Ladder'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2407,6 +2411,7 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
+            <card param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:Country name:nk]' type='filter' />
             <card param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
           </strip>
         </edge>
@@ -2601,7 +2606,7 @@
       </viewpoint>
       <simple-id uuid='{8EF43FB9-A6DE-44D1-98E0-4913AC52BBE4}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Happiness World Map 2023'>
           <zoom type='entire-view' />
