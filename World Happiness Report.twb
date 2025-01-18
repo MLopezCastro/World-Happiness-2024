@@ -2120,7 +2120,7 @@
               </zone>
               <zone forceUpdate='true' h='10163' id='14' type-v2='text' w='73377' x='468' y='88902'>
                 <formatted-text>
-                  <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Calibri' fontsize='15'>Este mapa muestra el nivel de felicidad promedio en cada país según el informe World Happiness Report 2023. Los colores azules representan países con mayores niveles de felicidad, mientras que los colores rojos representan países con menores niveles. La escala va de 3.5 (bajo) a 7.7 (alto) y los países nórdicos (Finlandia, Islandia y Dinamarca) siempre están en la cima del ránking.</run>
+                  <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>This map shows the average level of happiness in each country according to the World Happiness Report 2023. Blue colors represent countries with higher levels of happiness, while red colors represent countries with lower levels. The scale ranges from 3.5 (low) to 7.7 (high), and the Nordic countries (Finland, Iceland, and Denmark) consistently top the rankings.</run>
                 </formatted-text>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
@@ -2169,8 +2169,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='21' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='23' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
                 <zone h='8061' id='8' name='Happiness World Map 2023' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-morefewerbutton='true' show-null-ctrls='false' type-v2='filter' values='all' w='9362' x='90170' y='935'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2218,7 +2218,7 @@
                 </zone>
                 <zone forceUpdate='true' h='10163' id='14' type-v2='text' w='73377' x='468' y='88902'>
                   <formatted-text>
-                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Calibri' fontsize='15'>Este mapa muestra el nivel de felicidad promedio en cada país según el informe World Happiness Report 2023. Los colores azules representan países con mayores niveles de felicidad, mientras que los colores rojos representan países con menores niveles. La escala va de 3.5 (bajo) a 7.7 (alto) y los países nórdicos (Finlandia, Islandia y Dinamarca) siempre están en la cima del ránking.</run>
+                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>This map shows the average level of happiness in each country according to the World Happiness Report 2023. Blue colors represent countries with higher levels of happiness, while red colors represent countries with lower levels. The scale ranges from 3.5 (low) to 7.7 (high), and the Nordic countries (Finland, Iceland, and Denmark) consistently top the rankings.</run>
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2389,7 +2389,7 @@
       </viewpoint>
       <simple-id uuid='{10737868-A823-4170-9F40-25CECC8A0B25}' />
     </window>
-    <window class='worksheet' maximized='true' name='Log GDP per capita &amp; Life Ladder'>
+    <window class='worksheet' name='Log GDP per capita &amp; Life Ladder'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2606,14 +2606,14 @@
       </viewpoint>
       <simple-id uuid='{8EF43FB9-A6DE-44D1-98E0-4913AC52BBE4}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Happiness World Map 2023'>
           <zoom type='entire-view' />
         </viewpoint>
         <viewpoint name='Happiness by Country' />
       </viewpoints>
-      <active id='8' />
+      <active id='14' />
       <simple-id uuid='{D58CC085-369C-44FB-AED8-25FA48640063}' />
     </window>
     <window class='worksheet' name='Negative Affect &amp; Life Ladder (7)'>
