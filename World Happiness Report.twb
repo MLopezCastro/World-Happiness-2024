@@ -1156,7 +1156,7 @@
           </datasource-dependencies>
           <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[Latitude (generated)]' included-values='non-null' />
           <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[Longitude (generated)]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' included-values='in-range-or-null'>
+          <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' filter-group='3' included-values='in-range-or-null'>
             <min>2023</min>
             <max>2023</max>
           </filter>
@@ -1246,7 +1246,7 @@
             <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
           </datasource-dependencies>
           <computed-sort column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:Country name:nk]' direction='DESC' using='[federated.1u93d3u02igec516x2lwo18orn9f].[avg:Life Ladder:qk]' />
-          <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' included-values='in-range'>
+          <filter class='quantitative' column='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' filter-group='3' included-values='in-range-or-null'>
             <min>2023</min>
             <max>2023</max>
           </filter>
@@ -2147,14 +2147,6 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='8528' id='13' name='Happiness by Country' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9362' x='90170' y='16590'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
             </zone>
           </zone>
           <zone-style>
@@ -2167,10 +2159,10 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='23' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='25' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
                 <zone h='8061' id='8' name='Happiness World Map 2023' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-morefewerbutton='true' show-null-ctrls='false' type-v2='filter' values='all' w='9362' x='90170' y='935'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2190,15 +2182,6 @@
                   </zone-style>
                 </zone>
                 <zone h='7594' id='9' name='Happiness World Map 2023' pane-specification-id='0' param='[federated.1u93d3u02igec516x2lwo18orn9f].[avg:Life Ladder:qk]' type-v2='color' w='9362' x='90170' y='8996'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='8528' id='13' name='Happiness by Country' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9362' x='90170' y='16590'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2613,7 +2596,7 @@
         </viewpoint>
         <viewpoint name='Happiness by Country' />
       </viewpoints>
-      <active id='14' />
+      <active id='8' />
       <simple-id uuid='{D58CC085-369C-44FB-AED8-25FA48640063}' />
     </window>
     <window class='worksheet' name='Negative Affect &amp; Life Ladder (7)'>
