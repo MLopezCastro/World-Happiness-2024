@@ -215,6 +215,33 @@
       <column caption='Happiness Category' datatype='string' name='[Calculation_1141381068437393408]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [Life Ladder] &gt;= 7.5 THEN &quot;Very High Happiness&quot;&#13;&#10;ELSEIF [Life Ladder] &gt;= 7.0 THEN &quot;High Happiness&quot;&#13;&#10;ELSE &quot;Moderate Happiness&quot;&#13;&#10;END' />
       </column>
+      <column caption='&quot;Go to Cover&quot;' datatype='string' name='[Calculation_1141381068494815233]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Cover&quot;' />
+      </column>
+      <column caption='&quot;Go to Happiness World Map&quot;' datatype='string' name='[Calculation_1141381068495441922]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Happiness World Map&quot;' />
+      </column>
+      <column caption='&quot;Go to Trend &amp; Distribution&quot;' datatype='string' name='[Calculation_1141381068495626243]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Trend &amp; Distribution&quot;' />
+      </column>
+      <column caption='&quot;Go to Correlations I&quot;' datatype='string' name='[Calculation_1141381068495761412]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Correlations I&quot;' />
+      </column>
+      <column caption='&quot;Go to Correlations II&quot;' datatype='string' name='[Calculation_1141381068495925253]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Correlations II&quot;' />
+      </column>
+      <column caption='&quot;Go to Correlations III&quot;' datatype='string' name='[Calculation_1141381068496003078]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Correlations III&quot;' />
+      </column>
+      <column caption='&quot;Go to Log GDP per Capita&quot;' datatype='string' name='[Calculation_1141381068496093191]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Log GDP per Capita&quot;' />
+      </column>
+      <column caption='&quot;Go to Word Cloud&quot;' datatype='string' name='[Calculation_1141381068496224264]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Word Cloud&quot;' />
+      </column>
+      <column caption='&quot;Go to Conclusions&quot;' datatype='string' name='[Calculation_1141381068496326665]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Go to Conclusions&quot;' />
+      </column>
       <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
       <column aggregation='None' datatype='integer' name='[Life Ladder (bin)]' role='dimension' type='quantitative'>
         <calculation class='bin' decimals='-1' formula='[Life Ladder]' peg='0' size='0.164' />
@@ -962,19 +989,19 @@
       </command>
     </action>
     <nav-action caption='Go to Log GDP per Capita' name='[Action10_5704ECBB6CC741C986F6612C422C6666]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Log GDP per Capita' />
       </params>
     </nav-action>
     <nav-action caption='Go to Word Cloud' name='[Action11_DFDD9D515EAD4125B4428839C1F025D7]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Word Cloud' />
       </params>
     </nav-action>
     <nav-action caption='Go to Conclusions' name='[Action12_FE08BF05389C4717AEEF2E7D99DB16FB]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Conclusions' />
       </params>
@@ -986,37 +1013,37 @@
       </params>
     </nav-action>
     <nav-action caption='Go to Cover' name='[Action5_2B2DB94DB0674359A32B1C6C07AD13EE]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Cover' />
       </params>
     </nav-action>
     <nav-action caption='Go to Happiness World Map' name='[Action5_D58D7B64E9B74D8DA3A24DC3F3528128]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Happiness World Map ' />
       </params>
     </nav-action>
     <nav-action caption='Go to Trend &amp; Distribution' name='[Action6_ED2B28C85CA248708EF4330AA0169820]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Trend &amp; Distribution' />
       </params>
     </nav-action>
     <nav-action caption='Go to Correlations I' name='[Action7_ECAC77C377F2406F8EA40C8CF44B7D35]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Correlations I' />
       </params>
     </nav-action>
     <nav-action caption='Go to Correlations II' name='[Action8_294863A747B641159CBFB7CEE8580C74]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Correlations II' />
       </params>
     </nav-action>
     <nav-action caption='Go to Correlations III' name='[Action9_4F1006DEAE4542BC857B11FF38D782F0]'>
-      <source dashboard='Menu' type='sheet' />
+      <source dashboard='Menu2' type='sheet' />
       <params>
         <param name='sheet' value='Correlations III' />
       </params>
@@ -1700,6 +1727,94 @@
         <cols>[federated.1u93d3u02igec516x2lwo18orn9f].[avg:Log GDP per capita:qk]</cols>
       </table>
       <simple-id uuid='{DBBF9E74-D1B4-4C8A-8968-7278BE3B765F}' />
+    </worksheet>
+    <worksheet name='Menu'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_World_Happiness_Data_Points_UTF8' name='federated.1u93d3u02igec516x2lwo18orn9f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u93d3u02igec516x2lwo18orn9f'>
+            <column caption='&quot;Go to Cover&quot;' datatype='string' name='[Calculation_1141381068494815233]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Cover&quot;' />
+            </column>
+            <column caption='&quot;Go to Happiness World Map&quot;' datatype='string' name='[Calculation_1141381068495441922]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Happiness World Map&quot;' />
+            </column>
+            <column caption='&quot;Go to Trend &amp; Distribution&quot;' datatype='string' name='[Calculation_1141381068495626243]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Trend &amp; Distribution&quot;' />
+            </column>
+            <column caption='&quot;Go to Correlations I&quot;' datatype='string' name='[Calculation_1141381068495761412]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Correlations I&quot;' />
+            </column>
+            <column caption='&quot;Go to Correlations II&quot;' datatype='string' name='[Calculation_1141381068495925253]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Correlations II&quot;' />
+            </column>
+            <column caption='&quot;Go to Correlations III&quot;' datatype='string' name='[Calculation_1141381068496003078]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Correlations III&quot;' />
+            </column>
+            <column caption='&quot;Go to Log GDP per Capita&quot;' datatype='string' name='[Calculation_1141381068496093191]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Log GDP per Capita&quot;' />
+            </column>
+            <column caption='&quot;Go to Word Cloud&quot;' datatype='string' name='[Calculation_1141381068496224264]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Word Cloud&quot;' />
+            </column>
+            <column caption='&quot;Go to Conclusions&quot;' datatype='string' name='[Calculation_1141381068496326665]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Go to Conclusions&quot;' />
+            </column>
+            <column-instance column='[Calculation_1141381068494815233]' derivation='None' name='[none:Calculation_1141381068494815233:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068495441922]' derivation='None' name='[none:Calculation_1141381068495441922:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068495626243]' derivation='None' name='[none:Calculation_1141381068495626243:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068495761412]' derivation='None' name='[none:Calculation_1141381068495761412:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068495925253]' derivation='None' name='[none:Calculation_1141381068495925253:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068496003078]' derivation='None' name='[none:Calculation_1141381068496003078:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068496093191]' derivation='None' name='[none:Calculation_1141381068496093191:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068496224264]' derivation='None' name='[none:Calculation_1141381068496224264:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1141381068496326665]' derivation='None' name='[none:Calculation_1141381068496326665:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='8' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068494815233:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495441922:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495626243:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495761412:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495925253:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496003078:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496093191:nk] / ([federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496224264:nk] / [federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496326665:nk]))))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{6F4410F4-0FAF-4FCD-9A99-D8A95E4C97D0}' />
     </worksheet>
     <worksheet name='Negative Affect &amp; Life Ladder (7)'>
       <layout-options>
@@ -2594,8 +2709,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='39' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='43' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='7827' id='3' type-v2='text' w='85306' x='6804' y='2687'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='36'>Key Insights and Conclusions from the World Happiness Report</run>
@@ -2820,8 +2935,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='63' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='62' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='67' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='66' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='7126' id='11' type-v2='text' w='88393' x='2287' y='818'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Correlation Analysis Between Happiness and Key Global  Metrics - I</run>
@@ -3042,8 +3157,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='63' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='62' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='67' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='66' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='7126' id='11' type-v2='text' w='88393' x='2287' y='818'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Correlation Analysis Between Happiness and Key Global Metrics - II</run>
@@ -3266,8 +3381,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='63' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='62' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='67' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='66' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='8645' id='11' type-v2='text' w='96055' x='2287' y='818'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Multivariate Correlation Analysis: Happiness and Influential Metrics</run>
@@ -3488,8 +3603,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='60' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='59' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='63' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='98130' id='5' type-v2='text' w='99086' x='457' y='935'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3653,8 +3768,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='102' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98416' id='101' param='vert' type-v2='layout-flow' w='99166' x='417' y='792'>
+            <zone h='100000' id='106' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98416' id='105' param='vert' type-v2='layout-flow' w='99166' x='417' y='792'>
                 <zone h='7921' id='8' name='Happiness World Map 2023' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-morefewerbutton='true' show-null-ctrls='false' type-v2='filter' values='all' w='13542' x='86041' y='792'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3756,8 +3871,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='33' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='37' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone h='10631' id='4' name='GDP World Map' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='18868' x='76901' y='17173'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3820,7 +3935,7 @@
       </devicelayouts>
       <simple-id uuid='{14A1D7B3-8F3A-4C7A-A848-16C2FD33A194}' />
     </dashboard>
-    <dashboard enable-sort-zone-taborder='true' name='Menu'>
+    <dashboard enable-sort-zone-taborder='true' name='Menu2'>
       <style />
       <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
       <zones>
@@ -3961,8 +4076,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98134' id='26' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98134' id='30' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
                 <zone forceUpdate='true' h='3501' id='4' type-v2='text' w='20923' x='33231' y='13886'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Go to Cover</run>
@@ -4121,8 +4236,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='76' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='81' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='80' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone h='8294' id='10' mode='dropdown' name='Tendency of Life Ladder through Time' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:Country name:nk]' show-all='false' type-v2='filter' w='28874' x='31904' y='46379'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4210,8 +4325,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='22' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='26' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='8294' id='6' type-v2='text' w='61921' x='14237' y='1752'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Top 20 Happiest Countries by Year Word Cloud</run>
@@ -4282,10 +4397,45 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='dashboard' maximized='true' name='Menu'>
+    <window class='dashboard' name='Menu2'>
       <viewpoints />
-      <active id='12' />
+      <active id='-1' />
       <simple-id uuid='{723A8E05-D02C-4A98-BE80-AC01F37A4A4A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Menu'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068494815233:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495441922:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495626243:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495761412:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068495925253:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496003078:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496093191:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496224264:nk]</field>
+            <field>[federated.1u93d3u02igec516x2lwo18orn9f].[none:Calculation_1141381068496326665:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{526EF5D5-3EAF-4E29-8ACD-1CF3EE5835BF}' />
     </window>
     <window class='dashboard' name='Cover'>
       <viewpoints />
@@ -9724,7 +9874,50 @@
       334HlXIJqewo2o0DjFy4iFTCQMyM4+mjh8hMFDAxnEat1cXocBbpdBrtVh2WA9g9C5VSCSP5
       S5gYzgIQ6Fo2rG4XuYk8knH/j0+cNQwAae1/LcHvbiW4eOUAAAAASUVORK5CYII=
     </thumbnail>
-    <thumbnail height='192' name='Menu' width='192'>
+    <thumbnail height='24' name='Menu' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Menu2' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAgAElEQVR4nO3dd2AUZf7H8fdsT++EEiCE3nuHQMAGnopnOdsdnv5Qzl5AFBVUFBE5RVFE
       QEURAemCSgmhBUioCYEEAoF00stuku0zvz+CKIIKKrdm53n9lew8M/PNsJ/sTHi+M5KiKAqC
