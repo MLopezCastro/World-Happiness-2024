@@ -2283,6 +2283,236 @@
     </worksheet>
   </worksheets>
   <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Conclusions'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone forceUpdate='true' h='7827' id='3' type-v2='text' w='85306' x='6804' y='2687'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='36'>Key Insights and Conclusions from the World Happiness Report</run>
+          </formatted-text>
+        </zone>
+        <zone h='78738' id='4' param='vert' type-v2='layout-flow' w='94225' x='3716' y='12383' />
+        <zone h='27220' id='5' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='25843' x='4860' y='13902' />
+        <zone h='27220' id='6' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='34934' x='31732' y='13668' />
+        <zone h='41005' id='7' param='horz' type-v2='layout-flow' w='21384' x='4860' y='42056' />
+        <zone h='41706' id='8' param='horz' type-v2='layout-flow' w='16810' x='26987' y='41822' />
+        <zone h='27220' id='9' param='horz' type-v2='layout-flow' w='28016' x='67524' y='13668' />
+        <zone h='41355' id='10' param='horz' type-v2='layout-flow' w='22013' x='44483' y='42056' />
+        <zone h='42056' id='11' param='horz' type-v2='layout-flow' w='28473' x='67181' y='41939' />
+        <zone forceUpdate='true' h='23832' id='12' type-v2='text' w='24185' x='5660' y='15187'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 1: Impact of Income</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Income </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>(measured as Log GDP per capita) </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>is strongly correlated with happiness</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>. Countries like Finland and Switzerland report high Life Ladder scores alongside higher income levels.</run>
+          </formatted-text>
+        </zone>
+        <zone h='21612' id='13' type-v2='text' w='32819' x='33276' y='14136'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='20'>Conclusion 2: Freedom to Make Choices</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontsize='15'>&#10;Perceived </run>
+            <run bold='true' fontcolor='#000000' fontsize='15'>freedom to make life choices is a key factor in happiness</run>
+            <run fontcolor='#000000' fontsize='15'>. Nordic countries exhibit high happiness levels and strong perceptions of personal freedom.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='18808' id='14' type-v2='text' w='27330' x='67753' y='15070'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='20'>Conclusion 3: Health and Happiness</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='15'>Healthy life expectancy directly impacts happiness</run>
+            <run fontcolor='#000000' fontsize='15'>. Countries like Japan and Switzerland rank highly in both metrics.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='36215' id='15' type-v2='text' w='17553' x='6690' y='42874'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 4: Social Support Matters</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Strong social support networks are essential for well-being</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>. Countries with robust communities, such as Denmark and Norway, achieve higher happiness scores.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='38668' id='16' type-v2='text' w='13665' x='28130' y='43692'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 5: Perception of Corruption</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Lower perceived corruption is associated with higher happiness levels</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>. Finland and New Zealand excel in both dimensions</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='30841' id='17' type-v2='text' w='21326' x='44997' y='42173'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 6: Positive and Negative Emotions</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Positive emotions</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'> (e.g., joy) </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>are closely linked to happiness</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>, while </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>negative emotions</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'> (e.g., stress) </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>have a detrimental impact on well-being</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>.</run>
+          </formatted-text>
+        </zone>
+        <zone h='27804' id='18' type-v2='text' w='25386' x='68268' y='43458'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 7: Generosity and Social Values</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Generosity shows a mixed relationship with happiness</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='15'>, but countries like Costa Rica highlight how strong social values can enhance well-being.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='19' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+                <zone forceUpdate='true' h='7827' id='3' type-v2='text' w='85306' x='6804' y='2687'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='36'>Key Insights and Conclusions from the World Happiness Report</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21612' id='13' type-v2='text' w='32819' x='33276' y='14136'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='20'>Conclusion 2: Freedom to Make Choices</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontsize='15'>&#10;Perceived </run>
+                    <run bold='true' fontcolor='#000000' fontsize='15'>freedom to make life choices is a key factor in happiness</run>
+                    <run fontcolor='#000000' fontsize='15'>. Nordic countries exhibit high happiness levels and strong perceptions of personal freedom.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='18808' id='14' type-v2='text' w='27330' x='67753' y='15070'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='20'>Conclusion 3: Health and Happiness</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='15'>Healthy life expectancy directly impacts happiness</run>
+                    <run fontcolor='#000000' fontsize='15'>. Countries like Japan and Switzerland rank highly in both metrics.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='23832' id='12' type-v2='text' w='24185' x='5660' y='15187'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 1: Impact of Income</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Income </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>(measured as Log GDP per capita) </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>is strongly correlated with happiness</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>. Countries like Finland and Switzerland report high Life Ladder scores alongside higher income levels.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='30841' id='17' type-v2='text' w='21326' x='44997' y='42173'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 6: Positive and Negative Emotions</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Positive emotions</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'> (e.g., joy) </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>are closely linked to happiness</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>, while </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>negative emotions</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'> (e.g., stress) </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>have a detrimental impact on well-being</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='36215' id='15' type-v2='text' w='17553' x='6690' y='42874'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 4: Social Support Matters</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Strong social support networks are essential for well-being</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>. Countries with robust communities, such as Denmark and Norway, achieve higher happiness scores.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='27804' id='18' type-v2='text' w='25386' x='68268' y='43458'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 7: Generosity and Social Values</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Generosity shows a mixed relationship with happiness</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>, but countries like Costa Rica highlight how strong social values can enhance well-being.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='38668' id='16' type-v2='text' w='13665' x='28130' y='43692'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>Conclusion 5: Perception of Corruption</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15'>Lower perceived corruption is associated with higher happiness levels</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='15'>. Finland and New Zealand excel in both dimensions</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{70197F5C-DDDD-4A64-9533-F32E2414CF89}' />
+    </dashboard>
     <dashboard enable-sort-zone-taborder='true' name='Correlations I'>
       <style />
       <size sizing-mode='automatic' />
@@ -2369,8 +2599,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='40' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='42' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='7126' id='11' type-v2='text' w='88393' x='2287' y='818'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Correlation Analysis Between Happiness and Key Global  Metrics - I</run>
@@ -2589,8 +2819,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='40' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='42' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='7126' id='11' type-v2='text' w='88393' x='2287' y='818'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Correlation Analysis Between Happiness and Key Global Metrics - II</run>
@@ -2809,8 +3039,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='40' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='42' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='8645' id='11' type-v2='text' w='96055' x='2287' y='818'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='36'>Multivariate Correlation Analysis: Happiness and Influential Metrics</run>
@@ -3031,8 +3261,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='37' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='39' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone forceUpdate='true' h='98130' id='5' type-v2='text' w='99086' x='457' y='935'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3136,28 +3366,33 @@
         <zone h='98832' id='3' name='GDP World Map' w='75529' x='400' y='584' />
         <zone h='10631' id='4' name='GDP World Map' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='18868' x='76901' y='17173' />
         <zone h='6542' id='5' name='GDP World Map' pane-specification-id='0' param='[federated.1u93d3u02igec516x2lwo18orn9f].[avg:Log GDP per capita:qk]' type-v2='color' w='16924' x='77073' y='10280' />
-        <zone forceUpdate='true' h='71612' id='6' type-v2='text' w='19554' x='77015' y='26869'>
+        <zone forceUpdate='true' h='64486' id='6' type-v2='text' w='19554' x='77015' y='28505'>
           <formatted-text>
             <run bold='true' fontcolor='#000000' fontsize='15'>What is Log GDP per Capita?</run>
-            <run>Æ&#10;</run>
+            <run>Æ&#10;&#10;</run>
             <run fontcolor='#000000' fontsize='15'>The &quot;Log GDP per Capita&quot; is a transformation of GDP per capita using a logarithmic scale. This transformation helps manage large disparities between countries with very high or very low GDP values, making patterns and trends easier to identify.</run>
             <run>Æ&#10;&#10;&#10;</run>
             <run bold='true' fontcolor='#000000' fontsize='15'>Why Use Logarithmic Scale?</run>
-            <run>Æ&#10;</run>
+            <run>Æ&#10;&#10;</run>
             <run fontcolor='#000000' fontsize='15'>Highlights relative differences instead of absolute differences.</run>
             <run>Æ&#10;</run>
             <run fontcolor='#000000' fontsize='15'>Reduces the visual dominance of outlier countries with extremely high GDP.</run>
             <run>Æ&#10;</run>
             <run fontcolor='#000000' fontsize='15'>Provides a clearer comparison across a wide range of economies.</run>
           </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
         </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='11' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='13' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone h='10631' id='4' name='GDP World Map' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='18868' x='76901' y='17173'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3185,14 +3420,14 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='71612' id='6' type-v2='text' w='19554' x='77015' y='26869'>
+                <zone forceUpdate='true' h='64486' id='6' type-v2='text' w='19554' x='77015' y='28505'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontsize='15'>What is Log GDP per Capita?</run>
-                    <run>Æ&#10;</run>
+                    <run>Æ&#10;&#10;</run>
                     <run fontcolor='#000000' fontsize='15'>The &quot;Log GDP per Capita&quot; is a transformation of GDP per capita using a logarithmic scale. This transformation helps manage large disparities between countries with very high or very low GDP values, making patterns and trends easier to identify.</run>
                     <run>Æ&#10;&#10;&#10;</run>
                     <run bold='true' fontcolor='#000000' fontsize='15'>Why Use Logarithmic Scale?</run>
-                    <run>Æ&#10;</run>
+                    <run>Æ&#10;&#10;</run>
                     <run fontcolor='#000000' fontsize='15'>Highlights relative differences instead of absolute differences.</run>
                     <run>Æ&#10;</run>
                     <run fontcolor='#000000' fontsize='15'>Reduces the visual dominance of outlier countries with extremely high GDP.</run>
@@ -3201,8 +3436,8 @@
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
                   </zone-style>
@@ -3257,8 +3492,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='55' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='54' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='57' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='56' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone h='8294' id='10' mode='dropdown' name='Tendency of Life Ladder through Time' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:Country name:nk]' show-all='false' type-v2='filter' w='28874' x='31904' y='46379'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3386,8 +3621,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='78' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='77' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
+            <zone h='100000' id='80' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='79' param='vert' type-v2='layout-flow' w='99086' x='457' y='935'>
                 <zone h='7243' id='8' name='Happiness World Map 2023' param='[federated.1u93d3u02igec516x2lwo18orn9f].[none:year:qk]' show-domain='false' show-morefewerbutton='true' show-null-ctrls='false' type-v2='filter' values='all' w='15609' x='83934' y='935'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3849,7 +4084,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='11' />
       <simple-id uuid='{7319568B-A5B6-4E18-B42B-A24B5981BB2F}' />
     </window>
     <window class='dashboard' name='Correlations III'>
@@ -3867,7 +4102,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='12' />
+      <active id='-1' />
       <simple-id uuid='{93F793D4-6EAF-48AE-BE08-4C444286DD1C}' />
     </window>
     <window class='dashboard' name='Correlations II'>
@@ -3924,14 +4159,19 @@
       </viewpoint>
       <simple-id uuid='{43167AD3-74B5-4FF3-957B-0C38429B527D}' />
     </window>
-    <window class='dashboard' maximized='true' name='Log GDP per Capita'>
+    <window class='dashboard' name='Log GDP per Capita'>
       <viewpoints>
         <viewpoint name='GDP World Map'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{8B4B7BFD-9DC7-444D-8F95-B0792914EC4A}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Conclusions'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{99D7B12A-AF1C-4B5D-91CE-A5F1655FD524}' />
     </window>
     <window class='dashboard' name='Cover'>
       <viewpoints />
@@ -4234,6 +4474,465 @@
     </window>
   </windows>
   <thumbnails>
+    <thumbnail height='192' name='Conclusions' width='192'>
+      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
+      ofl/PLiP5is5ibgAAAAASUVORK5CYII=
+    </thumbnail>
     <thumbnail height='192' name='Correlations I' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAgAElEQVR4nOydd3yV1fnAv3ff7ORm70FCAgmEQBgyksgQcdCKdbVV21pbu/fuz9E9bWtb
